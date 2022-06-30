@@ -11,20 +11,21 @@
             <form action="">
                 <label for="nombre">
                     <span>¿Cual es tu nombre?</span>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"/>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required/>
                 </label>
                 <label for="correo">
                     <span>¿Cual es tu correo?</span>
-                    <input type="email" id="correo" name="correo" placeholder="Tu correo"/>
+                    <input type="email" id="correo" name="correo" placeholder="Tu correo" autocomplete="email" required/>
                 </label>
                 <label for="pais">
                     <span>¿Cual es tu pais?</span>
-                    <input type="text" id="pais" name="pais" placeholder="Tu pais"/>
+                    <input type="text" id="pais" name="pais" placeholder="Tu pais" autocomplete="country" required/>
                 </label>
                 <label for="cp">
                     <span>¿Cual es tu codigo postal?</span>
-                    <input type="number" id="cp" name="cd" placeholder="Codigo postal"/>
+                    <input type="number" id="cp" name="cd" placeholder="Codigo postal" autocomplete="postal-code" required/>
                 </label>
+                <input type="submit"/>
             </form>
         </main>
     </body>
